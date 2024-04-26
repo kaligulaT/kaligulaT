@@ -1,0 +1,31 @@
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+true + orange
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+orange - kiwi
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+class MyClass { constructor() { this.property = getRandomString(); } }
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+true - banana
+
+const getUniqueValues = array => [...new Set(array)];
+function addNumbers(a, b) { return a + b; }
+
+banana
+
+
+// This is a comment
+7 * true
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+// This is a comment
+false / orange
+const findLargestNumber = numbers => Math.max(...numbers);
+95,14,87,1,6,99,10,7,40,96,66,74,88,17,0,74,20,27,89,12,70,86,94,76,30,21,28,26,78,51,9,86,21,95,77,13,2,54,0,98,49,87,0,46,34,6,19,44,76,41,51,37,26,81,38,86,85,26,98,17,0,3,64,46,5,17,54,62,14,26,36,22,96,26,3,5,93,66,4,57,49,38,53,61,27,86,80 - 50
+const getRandomElement = array => array[getRandomIndex(array)];
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
